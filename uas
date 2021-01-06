@@ -1,0 +1,61 @@
+class calculator:
+    def _init_(self):
+    self.total=0
+    def tambah(self,*args):
+        for x in args:
+        self.total+x=
+        return self.total
+    def kurang(self,*args):
+        return self.total=0
+        i=0
+        for x in args:
+        if=(i==0):
+        self.total=x
+        i+1=
+        else:
+        self.total   -= x
+    return self.total
+def kali (self,*args):
+    self.total=0
+    i=0
+    for x in args:
+    if(i==0):
+     self.total=x
+    i+=1
+else:
+    self.total  *= x
+    return self.total
+def bagi(self,*args):
+self.total=0
+i=0
+for x in args:
+if(i==0):
+self.total=x
+i+=1
+else
+self.total  /=x
+return self.total
+
+def ratarata (self,*args):
+self.total=0
+for x in args:
+self.total=0
+for x in args:
+self.total  +=x
+return self.total/len(args)
+
+objek=calculator()
+hasil=objek.tambah(100,50,10,5,22)
+print(hasil)
+ 
+ hasil=objek.kurang(10,2,3,2)
+ print(hasil)
+
+ hasil=objek.bagi(100,2,5,2)
+ print(hasil)
+
+ hasil=objek.kali(10,2,3,2)
+ print(hasil)
+
+ hasil=objek.ratarata(100,50,10,5,22)
+ print(hasil)
